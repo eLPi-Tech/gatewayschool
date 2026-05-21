@@ -149,18 +149,18 @@
             transform: translateY(-1px) scale(0.98);
         }
 
-        #trusted-gate{
+        #trusted-gate {
             transition: 0.3s ease-in-out;
         }
 
-        #trusted-gate:hover{
+        #trusted-gate:hover {
             background-color: var(brandGold);
             box-shadow: 0 5px 15px -5px rgba(255, 195, 0, 0.4);
             color: black;
             transform: scale(1.1);
         }
 
-  
+
         #below-hero {
             background: url(./img/top_view.jpg);
             background-size: cover;
@@ -182,7 +182,7 @@
                 <img src="./img/logo.png" alt="Gateway Complex Logo" class="w-10 h-10">
                 <div class="flex flex-col">
                     <span class="font-extrabold text-brandBlue leading-none tracking-tight">GATEWAY</span>
-                    <span class="text-[10px] uppercase font-bold text-brandGold tracking-widest">School Complex</span>
+                    <span class="text-[10px] uppercase font-bold text-brandBlue tracking-widest">School Complex</span>
                 </div>
             </div>
 
@@ -194,7 +194,8 @@
                 <a href="#experience" class="hover:text-brandBlue font-bold transition-colors">Impact</a>
                 <a href="#contact"
                     class="hover:text-brandBlue transition-colors text-brandBlue border-b-2 border-brandGold">Admission</a>
-                <a href="https://trustedgateshs.netlify.app/" target="_blank" id="trusted-gate" class="bg-brandGold text-brandBlue px-5 py-2 rounded-full text-sm font-bold">Go to
+                <a href="https://trustedgateshs.netlify.app/" rel="noopener" target="_blank" id="trusted-gate"
+                    class="bg-brandGold text-brandBlue px-5 py-2 rounded-full text-sm font-bold">Go to
                     Trusted Gate SHS</a>
             </div>
 
@@ -218,6 +219,9 @@
                 Stories</a>
             <a href="#contact" class="block bg-brandGold text-brandBlue px-8 py-3 rounded-xl"
                 onclick="closeMenu()">Enroll Now</a>
+            <a href="https://trustedgateshs.netlify.app/" rel="noopener" target="_blank" id="trusted-gate"
+                class="bg-brandGold text-brandBlue px-5 py-2 rounded-full text-sm font-bold">Go to
+                Trusted Gate SHS</a>
         </div>
         <button onclick="closeMenu()" class="absolute top-8 right-8 text-3xl">
             <i class="fas fa-times"></i>
@@ -357,7 +361,7 @@
                             <img src="./img/mrs_janet.jpg" alt="The Founder"
                                 class="rounded-[2rem] shadow-2xl object-cover w-full aspect-[4/5]">
                             <div class="absolute -bottom-6 right-6 bg-brandBlue text-white p-6 rounded-2xl shadow-xl">
-                                <h4 class="font-bold text-lg leading-none">Our Founder</h4>
+                                <h4 class="font-bold text-lg leading-none">The Founder</h4>
                                 <p class="text-xs text-brandGold font-semibold uppercase tracking-wider mt-1">Visionary
                                     Leader</p>
                             </div>
@@ -468,7 +472,8 @@
         <section id="enroll" class="py-20 px-6">
             <div class="max-w-5xl mx-auto bg-brandGold rounded-[3rem] p-12 md:p-20 text-center shadow-2xl relative">
                 <h2 class="text-4xl font-black text-brandBlue mb-6">Shape Their Future Today.</h2>
-                <p class="text-xl font-bold text-brandBlue/80 mb-10">Enrollment for the 2025/2026 Academic Year is now open. Seats
+                <p class="text-xl font-bold text-brandBlue/80 mb-10">Enrollment for the 2025/2026 Academic Year is now
+                    open. Seats
                     are filling fast!</p>
                 <button class="bg-brandBlue text-white px-12 py-5 rounded-2xl font-bold text-lg shadow-2xl btn-hover"><i
                         class="fas fa-paper-plane"></i> Begin Online Application</button>
@@ -494,8 +499,7 @@
                             Message</button>
                     </form>
                 </div>
-                <div id="map-section"
-                    class="relative h-96 z-10 grayscale hover:grayscale-0 transition duration-1000">
+                <div id="map-section" class="relative h-96 z-10 grayscale hover:grayscale-0 transition duration-1000">
                     <div class="map-frame">
                         <iframe
                             src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3971.258666564813!2d-0.43727520000000003!3d5.5285915!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xfdfba8e41d51ea7%3A0x58be46c9d82b435e!2sGateway%20School%20Complex!5e0!3m2!1sen!2sgh!4v1757900541802!5m2!1sen!2sgh "
@@ -511,10 +515,8 @@
         <div class="max-w-7xl mx-auto px-6 md:px-12 grid grid-cols-1 md:grid-cols-4 gap-12 mb-16">
             <div class="col-span-1 md:col-span-1">
                 <div class="flex items-center gap-2 mb-6">
-                    <div
-                        class="w-8 h-8 bg-brandGold rounded-lg flex items-center justify-center text-brandBlue font-bold">
-                        G</div>
-                    <h3 class="text-xl font-black">GATEWAY</h3>
+                    <img src="./img/logo.png" alt="Gateway School Logo" class="h-20 w-20">
+                    <h3 class="text-xl font-black">GATEWAY SCHOOL COMPLEX</h3>
                 </div>
                 <p class="text-slate-400 text-sm leading-relaxed mb-6">Nurturing greatness from the roots in the heart
                     of the Central Region.</p>
@@ -545,7 +547,8 @@
             </div>
             <div class="bg-white/5 p-8 rounded-3xl border border-white/10">
                 <h4 class="font-bold text-white mb-4 text-sm">Contact Portal</h4>
-                <p class="text-xs text-slate-400 mb-4"><i class="fas fa-map-marker-alt text-brandGold mr-2"></i> Kasoa CP,
+                <p class="text-xs text-slate-400 mb-4"><i class="fas fa-map-marker-alt text-brandGold mr-2"></i> Kasoa
+                    CP,
                     Central Region, Ghana</p>
                 <p class="text-xs text-slate-400 mb-4"><i class="fas fa-phone-alt text-brandGold mr-2"></i> +233 24 000
                     0000</p>
@@ -557,7 +560,7 @@
         <div
             class="text-center pt-8 border-t border-white/10 text-[10px] text-slate-500 font-bold uppercase tracking-widest">
             © <span id="year"></span> GATEWAY SCHOOL COMPLEX. ALL RIGHTS RESERVED.
-            Powered by <a href="https://www.elpyron.com" class="text-brandGold hover:underline">eLPyron Systems</a>.   
+            Powered by <a href="https://www.elpyron.com" class="text-brandGold hover:underline">eLPyron Systems</a>.
         </div>
     </footer>
 
